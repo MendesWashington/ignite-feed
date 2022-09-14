@@ -24,12 +24,12 @@ export const Post = () => {
         <p>Fala galeraa 👋</p>
 
         <p>
-          Acabei de subir mais um projeto no meu portifa. É um projeto que fiz
+          Acabei de subir mais um projeto no meu portifólio. É um projeto que fiz
           no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀
         </p>
 
         <p>
-          👉 <a href="#">jane.design/doctorcare</a>
+          👉 <a href="#">mendesswashington@gmail.com</a>
         </p>
 
         <p>
