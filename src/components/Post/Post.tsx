@@ -1,3 +1,4 @@
+import { Comment } from "../Comment/Comment";
 import styles from "./Post.module.css";
 
 export const Post = () => {
@@ -24,8 +25,9 @@ export const Post = () => {
         <p>Fala galeraa 👋</p>
 
         <p>
-          Acabei de subir mais um projeto no meu portifólio. É um projeto que fiz
-          no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀
+          Acabei de subir mais um projeto no meu portifólio. É um projeto que
+          fiz no NLW Return, evento da Rocketseat. O nome do projeto é
+          DoctorCare 🚀
         </p>
 
         <p>
@@ -47,6 +49,13 @@ export const Post = () => {
           <button type="submit">Publicar</button>
         </footer>
       </form>
+      <div className={styles.commentList}>
+        <Comment />
+        <Comment />
+        <Comment />
+        <Comment />
+        <Comment />
+      </div>
     </article>
   );
 };
