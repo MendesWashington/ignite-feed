@@ -1,16 +1,16 @@
 import styles from "./Avatar.module.css";
 
 interface IAvatarProps {
-  haveBord: boolean;
+  hasBorder?: boolean;
+  src: string;
+  alt?: string;
 }
-export const Avatar = ({haveBord = true}: IAvatarProps) => {
+export const Avatar = ({ hasBorder = true, src, alt }: IAvatarProps) => {
   return (
-    <>
-      <img
-        className={haveBord? styles.avatarWithBord:  styles.avatar }
-        src="https://avatars.githubusercontent.com/u/26007230?v=4"
-        alt="mendesswashington"
-      />
-    </>
+    <img
+      className={hasBorder ? styles.avatarWithBorder : styles.avatar}
+      src={src}
+      alt={alt}
+    />
   );
 };
